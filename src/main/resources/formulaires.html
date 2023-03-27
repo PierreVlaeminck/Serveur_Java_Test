@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formulaire de dons</title>
+    <link rel="stylesheet" href="formulaires.css"/>
+</head>
+<body>
+<header>
+    <se>
+        <div>
+            <h1>Formulaire d'inscription</h1>
+        </div>
+        <div>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="formulaires.html" class="forms">Formulaire</a></li>
+            </ul>
+        </div>
+    </se>
+</header>
+<main>
+    <section>
+        <div>
+            <form action="traitement.php" method="post">
+                <label>Nom :</label>
+                <input type="text" name="nom" required><br>
+
+                <label>Prénom :</label>
+                <input type="text" name="prenom" required><br>
+
+                <label>Adresse e-mail :</label>
+                <input type="email" name="email" required><br>
+
+                <label>Numéro de téléphone :</label>
+                <input type="tel" name="tel" required><br>
+
+                <label>Montant du don :</label>
+                <input type="number" name="montant" min="0" step="0.01" required><br>
+
+                <label>Fréquence de don :</label>
+                <select name="frequence">
+                    <option value="mensuel">Mensuel</option>
+                    <option value="trimestriel">Trimestriel</option>
+                </select><br>
+
+                <input type="submit" value="Faire un don">
+            </form>
+        </div>
+    </section>
+</main>
+<footer>
+    <se>
+        <div>
+            <ul>
+                <li><a href="mentionslegales.html">Mentions légales</a></li>
+            </ul>
+        </div>
+    </se>
+</footer>
+</body>
+</html>

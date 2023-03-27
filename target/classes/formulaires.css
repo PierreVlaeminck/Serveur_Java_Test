@@ -1,0 +1,113 @@
+/* Style général */
+
+html, body {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/* styles pour l'en-tête */
+
+header {
+    background-color: #285e8e;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.forms {
+    background-color: #CC3333;
+    color: black;
+    padding: 20px;
+    border: black solid 2px;
+    border-radius: 10%;
+    font-size: large;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Style du formulaire */
+
+main {
+    margin: 20px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+input,
+select {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: black solid 2px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style du pied de page */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li:first-child {
+    margin-left: 0;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
